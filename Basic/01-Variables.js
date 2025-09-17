@@ -21,5 +21,6 @@ console.log(nombre2)
 const nombre3 = "Xochitl"
 console.log(nombre3)
 
+//No sirve, no es mutable
 nombre3 = "Ramon"
 console.log(nombre3)
