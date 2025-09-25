@@ -49,3 +49,24 @@ let myVariable6 = 2
 myVariable6 **= 2
 console.log(myVariable6)
 
+//Operadores de comparación
+console.log(a)
+console.log(a < b)
+console.log(a > b)
+console.log(a >= b)
+console.log(a <= b)
+console.log(a == b)
+console.log(a == a)
+console.log(a == 5) //Igualdad de valor
+console.log(a == "5")
+console.log(a === 5) //Igualdad de identidad
+console.log(a === "5")
+console.log(a != 4)
+console.log(a !== "4") //! es negacion
+console.log(0 == false)
+console.log(1 == true) 
+console.log( 0 == "")
+console.log( 1 == "wa")
+console.log(null == undefined)
+console.log(null === undefined)
+
