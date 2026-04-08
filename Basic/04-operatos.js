@@ -70,3 +70,42 @@ console.log( 1 == "wa")
 console.log(null == undefined)
 console.log(null === undefined)
 
+
+// Truthy values (valores verdaderos)
+// Todos los numeros positivos y negativos menos el cero
+// Todas las cadenas de texto menos las vacias
+//El bolean true
+
+// Falsy values (valores falsos)
+
+// 0 
+// on
+// Null
+// undefined
+// Nan
+// Boolean false
+// Cadenas de texto
+
+//Operadores lógicos
+
+//AND (&&)
+console.log(5 > 10 && 15 > 20)
+console.log(5 < 10 && 15 < 20)
+console.log(5 > 10 && 15 < 20)
+
+//OR ( || ) 
+console.log(5 > 10 || 5 < 10)
+console.log(5 < 10 || 5 < 10)
+console.log(5 > 10 || 5 > 10)
+console.log(5 > 10 || 5 > 10 || 6 > 2)
+
+console.log(5 > 10 && 15 > 20 || 30 < 40)
+
+//Not (!)
+console.log(!(5 > 10 && 5 < 10))
+console.log(!(5 > 10 || 5 < 10))
+
+//Operadores ternarios
+
+const isRainy = false
+isRainy ? console.log("Esta lloviendo") : console.log("No esta lloviendo")
