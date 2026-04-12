@@ -52,3 +52,18 @@ us += 3
 console.log(us)
 // us = 5 + 3
 // resultado = 8
+
+/*
+tambien se pueden
+usar otras operadores como
++, /, *, **, -
+*/
+let menos = 9
+menos -= 2
+console.log(menos)
+// menos = 9 - 2
+//resultado = 7
+
+let otrosa = 12
+otrosa -= 34
+console.log(otrosa)
