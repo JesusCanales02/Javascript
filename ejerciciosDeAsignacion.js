@@ -53,6 +53,10 @@ console.log(us)
 // us = 5 + 3
 // resultado = 8
 
+let variable7 = "hola"
+variable7 += 2
+console.log(variable7)
+
 /*
 tambien se pueden
 usar otras operadores como
@@ -67,3 +71,71 @@ console.log(menos)
 let otrosa = 12
 otrosa -= 34
 console.log(otrosa)
+
+let mul = 9
+mul *= 2
+console.log(mul)
+//mul = 9 * 2
+//resultado = 18
+
+let dive = 8
+dive /= 2
+console.log(dive)
+
+//comparacion
+
+let z = 6
+let x = 2
+
+console.log(z)
+console.log(x)
+
+console.log(z < x)
+console.log(z > x)
+console.log(z >= x)
+console.log(z <= x)
+console.log(z == x)
+console.log(z == z)
+console.log(z == 6) //igualdad de valor
+console.log(z == "6")
+console.log(z === "6") //igualdad de identidad y valor
+console.log(z === 6)
+console.log(z != 4)
+console.log(z !== 4)
+console.log(z !== "6")
+console.log(z !== 5)
+console.log(0 == true)
+console.log(1 == false)
+console.log(0 == false)
+console.log(1 == true)
+console.log(1 === "dwa")
+console.log(0 == "0")
+
+//Operadores logicos
+
+//AND (&&)
+console.log(15 < 20 && 6 < 89)
+console.log(3> 1 && 8 < 22)
+console.log(4>2 && 8< 22 && 90 > 100)
+//Se deben cumplir todas las comparaciones, si no saldra false
+
+//OR (||)
+console.log(34 > 55 || 4 > 2 )
+console.log(8<23 || 90 > 34 || 33 > 45)
+console.log(6> 2 || 4 < 6 || 5> 34)
+//Solo se debe cumpli una condicion, con una sola sale true
+
+//Tambine podemos usar los operadores logicos juntos
+console.log(6>2 && 8>3 || 4>2 || 9< 2)
+console.log(6<1 && 3<1 || 4>1 || 10<2)
+//Aqui no aplica el AND pero el OR si cumple asi que sale true, igual viceversa
+
+
+//NOT (!)
+console.log(!(2>1 && 3>2))
+console.log(!(2>1 && 3>6))
+console.log(!(3>5 || 9>3))
+console.log(!(true))
+//Solo pone la opeacion al contrario
+
+//Operadores ternarios

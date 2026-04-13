@@ -74,7 +74,7 @@ console.log(null === undefined)
 // Truthy values (valores verdaderos)
 // Todos los numeros positivos y negativos menos el cero
 // Todas las cadenas de texto menos las vacias
-//El bolean true
+//El boolean true
 
 // Falsy values (valores falsos)
 
