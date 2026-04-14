@@ -139,3 +139,11 @@ console.log(!(true))
 //Solo pone la opeacion al contrario
 
 //Operadores ternarios
+
+const EstaLLoviendo = true
+
+EstaLLoviendo ? console.log("Si esta lloviendo!!!") : console.log("No esta lloviendo :(") 
+
+let Carro = false
+
+Carro ? console.log("Si tengo") : console.log("no bro")
