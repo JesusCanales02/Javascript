@@ -184,44 +184,154 @@ if (age >= 18 && tienes_INE == true){
 }
 /*
 🟢 5. Descuento doble
-
 Declara un precio.
-
 👉 Si:
-
 es mayor a 100 → 10% descuento
 es mayor a 200 → 20% descuento
-
 👉 muestra el precio final
 */
+let price = 425
+let descount = null
+if (price > 200){
+    descount = price - (price * .20)
+    console.log("Su descuento es de:", descount)
+} else if (price > 100){
+    descount = price - (price * .10)
+    console.log("Su descuento es de:", descount)
+} else{
+    console.log("No aplica el descuento")
+}
 
 /*
 🟢 6. Par Y mayor a 10
-
 Declara un número.
-
 👉 Si es:
-
 par
 Y mayor a 10
-
 👉 imprime: “Cumple condición”
 👉 si no: “No cumple”
 */
 
+let d = 12
+if (d % 2 === 0 && d > 10){
+    console.log("Cumple condicion")
+} else {
+    console.log("No cumple")
+}
 /*
 🟢 7. Mini login
+Declara:
+usuario (string)
+password (string)
+👉 Si:
+usuario es "admin"
+Y password es "1234"
+👉 imprime: “Acceso correcto”
+👉 si no: “Acceso denegado”
+*/
+let user = "admin"
+let password = "1234"
+
+if (user === "admin" && password === "1234"){
+    console.log("Acceso correcto")
+} else{
+    console.log("Acceso denegado")
+}
+
+/*
+🟢 1. Rango de edades
+Declara una edad.
+👉 Muestra:
+“Niño” (0–12)
+“Adolescente” (13–17)
+“Adulto” (18–59)
+“Adulto mayor” (60+)
+*/
+let ed = 78
+if (ed <= 12){
+    console.log("Niño")
+} else if(ed >= 13 && ed <=17){
+    console.log("Adolencente")
+} else if(ed >= 18 && ed <= 59){
+    console.log("Adulto")
+}else {
+    console.log("Adulto mayor")
+}
+
+/*
+🟢 2. Número divisible
+
+Declara un número.
+
+👉 Si es divisible entre:
+
+3 → imprime “Fizz”
+5 → imprime “Buzz”
+ambos → “FizzBuzz”
+
+💥 (este es clásico de entrevistas)
+
+*/
+/*
+🟢 3. Sistema de calificaciones
+
+Declara una calificación (0–100).
+
+👉 Muestra:
+
+90–100 → “A”
+80–89 → “B”
+70–79 → “C”
+60–69 → “D”
+<60 → “F”
+*/
+
+/*
+🟢 4. Acceso por rol
 
 Declara:
 
-usuario (string)
-password (string)
+rol ("admin", "user", "guest")
+
+👉 Muestra:
+
+admin → “Acceso total”
+user → “Acceso limitado”
+guest → “Solo lectura”
+*/
+
+/*
+🟢 5. Validación de contraseña
+
+Declara una contraseña.
 
 👉 Si:
 
-usuario es "admin"
-Y password es "1234"
+tiene más de 8 caracteres
+👉 imprime “Contraseña válida”
+👉 si no → “Muy corta”
+*/
 
-👉 imprime: “Acceso correcto”
-👉 si no: “Acceso denegado”
+/*
+🟢 6. Número dentro de rango
+
+Declara un número.
+
+👉 Si está entre:
+
+10 y 50 → “Dentro del rango”
+👉 si no → “Fuera del rango”
+*/
+
+/*
+🟢 7. Compra con envío
+
+Declara:
+
+totalCompra
+
+👉 Si:
+
+500 → “Envío gratis”
+👉 si no → “Envío con costo”
 */
