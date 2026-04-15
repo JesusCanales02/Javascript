@@ -101,3 +101,127 @@ if (precio > 100){
 //precio * .10
 //? console.log("El precio es:", precio)
 //: console.log("No hay descuento")
+
+/*
+🟢 1. Operación con condición
+Declara:
+dos números
+una operación (+, -, *, /, %)
+
+👉 Si el resultado es mayor a 10, imprime:
+“Resultado alto”
+👉 si no:
+“Resultado bajo”
+*/
+let valor1 = 3
+let valor2 = 5
+let operacion = "+"
+let resultado = null
+if (operacion === "+"){
+    resultado = valor1 + valor2
+} if (resultado > 10){
+    console.log("Resultado alto")
+} else {
+    console.log("Resultado bajo")
+}
+
+/*
+🟢 2. Número positivo, negativo o cero
+
+Declara un número.
+
+👉 Muestra:
+
+“Positivo”
+“Negativo”
+“Es cero”
+*/
+let num = 9
+if(num > 0){
+    console.log("es positivo")
+}else if(num < 0){
+    console.log("Es negativo")
+} else{
+    console.log("Es cero")
+}
+
+/*
+🟢 3. Mayor de 3 números
+
+Declara 3 números.
+
+👉 Determina cuál es el mayor
+👉 imprime el número mayor
+*/
+let a = 3
+let b = 4
+let c = 8
+if (a > b && a > c){
+    console.log("El numero mayor es:", a)
+} else if(b > a && b > c){
+    console.log("El numero mayor es:", b)
+} else{
+    console.log("El numero mayor es:", c)
+}
+/*
+🟢 4. Verificación múltiple
+Declara:
+edad
+tieneINE (true/false)
+👉 Si:
+edad >= 18
+Y tieneINE = true
+
+👉 imprime: “Puede votar”
+👉 si no: “No puede votar”
+*/
+let age = 19
+let tienes_INE = false
+if (age >= 18 && tienes_INE == true){
+    console.log("Puedes votar")
+} else{
+    console.log("No puede votar")
+}
+/*
+🟢 5. Descuento doble
+
+Declara un precio.
+
+👉 Si:
+
+es mayor a 100 → 10% descuento
+es mayor a 200 → 20% descuento
+
+👉 muestra el precio final
+*/
+
+/*
+🟢 6. Par Y mayor a 10
+
+Declara un número.
+
+👉 Si es:
+
+par
+Y mayor a 10
+
+👉 imprime: “Cumple condición”
+👉 si no: “No cumple”
+*/
+
+/*
+🟢 7. Mini login
+
+Declara:
+
+usuario (string)
+password (string)
+
+👉 Si:
+
+usuario es "admin"
+Y password es "1234"
+
+👉 imprime: “Acceso correcto”
+👉 si no: “Acceso denegado”
+*/
