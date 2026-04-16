@@ -90,6 +90,10 @@ console.log(!(45>2 || 55<100))
 const Tienes_Perro = true 
 Tienes_Perro ? console.log("Si tengo") : console.log("no tengo")
 
+const Mesaludas = false
+? console.log("Hola!!")
+: console.log("Adios!!")
+
 const Te_mojaste = false
 Te_mojaste ? console.log("Siii!!") : console.log("Obvio no")
 // 10. Combina operadores aritméticos, de comparáción y lógicas

@@ -260,78 +260,109 @@ if (ed <= 12){
 
 /*
 🟢 2. Número divisible
-
 Declara un número.
-
 👉 Si es divisible entre:
-
 3 → imprime “Fizz”
 5 → imprime “Buzz”
 ambos → “FizzBuzz”
-
 💥 (este es clásico de entrevistas)
-
 */
+let num9 = 15
+if (num9 % 3 === 0 && num9 % 5 === 0){
+    console.log("FizzBuzz")
+} else if (num9 % 3 === 0){
+    console.log("Fizz")
+} else if (num9 % 5 === 0){
+    console.log("Buzz")
+}
+
+
 /*
 🟢 3. Sistema de calificaciones
-
 Declara una calificación (0–100).
-
 👉 Muestra:
-
 90–100 → “A”
 80–89 → “B”
 70–79 → “C”
 60–69 → “D”
 <60 → “F”
 */
+let calificacion = 78
+if (calificacion >= 90 && calificacion <= 100){
+    console.log("A")
+} else if (calificacion >= 80 && calificacion <= 89){
+    console.log("B")
+} else if (calificacion >= 70 && calificacion <= 79){
+    console.log("C")
+} else if (calificacion >= 60 && calificacion <= 69){
+    console.log("D")
+} else if (calificacion <= 60){
+    console.log("F")
+}
+
 
 /*
 🟢 4. Acceso por rol
-
 Declara:
-
 rol ("admin", "user", "guest")
-
 👉 Muestra:
-
 admin → “Acceso total”
 user → “Acceso limitado”
 guest → “Solo lectura”
 */
+let rol = "user"
+
+if(rol === "admin"){
+    console.log("Acceso total")
+} else if (rol === "user"){
+    console.log("Acceso limitado")
+} else if (rol === "guest"){
+    console.log("Solo lectura")
+}else{
+    console.log("No tienes acceso")
+}
 
 /*
 🟢 5. Validación de contraseña
-
 Declara una contraseña.
-
 👉 Si:
-
 tiene más de 8 caracteres
 👉 imprime “Contraseña válida”
 👉 si no → “Muy corta”
 */
+let contra = "Jesuswwww"
+if (contra.length > 8){
+    console.log("contarsena valida")
+} else {
+    console.log("muy corta")
+}
 
 /*
 🟢 6. Número dentro de rango
-
 Declara un número.
-
 👉 Si está entre:
-
 10 y 50 → “Dentro del rango”
 👉 si no → “Fuera del rango”
 */
+let num0 = 23
+if (num0 >= 10 && num0<= 50 ){
+    console.log("Dentro del rango")
+} else{
+    console.log("Fuera del rango")
+}
+
 
 /*
 🟢 7. Compra con envío
-
 Declara:
-
 totalCompra
-
 👉 Si:
-
 500 → “Envío gratis”
 👉 si no → “Envío con costo”
 */
+let totalCompra = 431
+if(totalCompra > 500){
+    console.log("envio gratis")
+} else {
+    console.log("Envio con cost")
+}
