@@ -106,7 +106,7 @@ le = po
 console.log(le)
 
 let mp = "javascript es divertido"
-if (mp.includes("javascript")){
+if (mp.startsWith("javascript")){
     console.log(mp.replace(/javascript/g,"JavaScript"))
 }else{
     console.log("Nada")
@@ -124,3 +124,48 @@ if (camv.startsWith("js")){
 } else{
     console.log("No se puede")
 }
+
+let io = "   JS es poderoso"
+let er = io.trim()
+if (er.startsWith("JS")){
+    console.log("Empieza con JS")
+} else{
+    console.log("Nada")
+}
+
+let externsion = "foto.png"
+if (externsion.endsWith(".png")){
+    console.log("foto.jpg")
+}else{
+    console.log("nada")
+}
+
+let obtener = "Hola como estas"
+console.log(obtener.split(" ") [0])
+
+let inclueye = "abc123"
+if(inclueye.includes("123")){
+    console.log("Si lo incluye")
+}else{
+    console.log("No lo hace")
+}
+
+let quira = "Estoy aprendiendo javascript"
+let oie = quira.split(" ")
+oie.pop()
+console.log(oie.join(" "))
+
+let sisi = "Siempre sere inevitable"
+let popo = sisi.split(" ")
+popo.shift()
+console.log(popo.join(" "))
+
+let yuy = "Hola a todos yo soy"
+let nono = yuy.split(" ")
+nono.push("jesus")
+console.log(nono.join(" "))
+
+let huh = "a puerto de ensenada"
+let mi = huh.split(" ")
+mi.unshift("Bienvenidos")
+console.log(mi.join(" "))

@@ -90,4 +90,8 @@ Saber posición--------------------------indexOf()
 Cambiar texto---------------------------replace(/ /g," ")
 Solo al inicio--------------------------startsWith("")
 Solo al final---------------------------endsWith("")
+pop()-----------------------------------Quita el último
+shift()---------------------------------Quita el primero
+push()----------------------------------Agrega al final
+unshift()-------------------------------Agrega al inicio
 */
