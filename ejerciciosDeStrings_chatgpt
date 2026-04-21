@@ -1,0 +1,126 @@
+
+let repetir = "Si"
+console.log(repetir.split("").reverse().join(""))
+
+let espace = "    apoco si   "
+console.log(espace.trim()) //Quita los espacios de los laterales
+
+let contar = "Apoco si mi amigo ja ja"
+let pala = contar.split(" ");
+console.log(pala.length);
+
+let repi = "Hola"
+console.log(repi.repeat(3))
+
+let t = "Hola mundo";
+
+let r = t
+  .replace(/a/g, "*")
+  .replace(/e/g, "*")
+  .replace(/i/g, "*")
+  .replace(/o/g, "*")
+  .replace(/u/g, "*");
+
+console.log(r);
+
+let text = "Hola mundo desde JS"
+console.log(text.split(" "))
+
+let invertido = "javascript"
+console.log(invertido.split("").reverse().join(""))
+
+let espa = "   estoy aprendiendo   "
+console.log(espa.trim())
+
+let arra = ["Hola", "mundo"]
+console.log(arra.join(" "))
+
+let mostrar = "Hola"
+console.log(mostrar.repeat(5))
+
+let quite = "Hola,como,estas,hoy"
+console.log(quite.replace(/,/g," "));
+
+let guio = "Estoy aprendiendo javascript"
+console.log(guio.replace(/ /g,"-"))
+
+let letras = "Computadora"
+console.log(letras.slice(0 , 4))
+
+let verdad = "Me gusta programar en JavaScript"
+console.log(verdad.includes("JavaScript"))
+
+let qu = "Hola como estas"
+console.log(qu.replace(/ /g,""))
+
+let rempla = "Hola mundo cruel"
+console.log(rempla.replace(/cruel/g, " ").trim())
+
+let todo = "hola mundo js"
+let resu = todo
+    .replace(/hola/g,"HOLA")
+    .replace(/mundo/g,"MUNDO");
+console.log(resu)
+
+let ree = "javascript"
+console.log(ree.replace(/j/g,"J"))
+
+let si = "Hola mundo"
+console.log(si.includes("Hola"))
+
+let corta = "Estoy aprendiendo JS"
+console.log(corta.slice(6))
+
+let separar = "hola"
+console.log(separar.split("").join("-"))
+
+let sepa = "   hola mundo   "
+console.log(sepa.trim().split(" ").join("-"))
+
+let ultim = "Estoy aprendiendo javascript"
+palabr = ultim.split(" ")
+console.log(palabr.at(-1));
+
+let invertir = "Hola como estas hoy"
+console.log(invertir.split(" ").length)
+
+let alreves = "Hola mundo JS"
+console.log(alreves.split(" ").reverse().join(" "))
+
+let y = "Hola mundo cruel"
+console.log(y.replace(/cruel/g, "feliz"))
+
+let u = "Estoy aprendiendo JS"
+console.log(u.replace(/JS/g,"JavaScript"))
+
+let lo = "   Hola como estas hoy   "
+pu = lo
+    .trim()
+    .split(" ").length
+console.log(pu)
+
+let po = "hola-mundo-desde-js"
+le = po
+    .replace(/-/g," ")
+
+console.log(le)
+
+let mp = "javascript es divertido"
+if (mp.includes("javascript")){
+    console.log(mp.replace(/javascript/g,"JavaScript"))
+}else{
+    console.log("Nada")
+}
+
+let yu = "Hola mundo"
+console.log(yu.startsWith("Hola"))
+
+let archivo = "archivo.pdf"
+console.log(archivo.endsWith("pdf"))
+
+let camv = "js es genial"
+if (camv.startsWith("js")){
+    console.log(camv.replace(/js/,"JavaScript"))
+} else{
+    console.log("No se puede")
+}

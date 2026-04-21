@@ -74,3 +74,20 @@ console.log(other[0])
 console.log(word.at(-1))
 console.log(other.toUpperCase())
 */
+
+/*
+Necesidad	Método
+
+Quitar espacios extremos----------------trim()
+Trabajar con palabras-------------------split(" ")
+Trabajar con letras---------------------split("")
+Invertir--------------------------------reverse()
+Unir------------------------------------join()
+Cortar----------------------------------slice()
+Buscar----------------------------------includes()
+Saber si existe-------------------------includes()
+Saber posición--------------------------indexOf()
+Cambiar texto---------------------------replace(/ /g," ")
+Solo al inicio--------------------------startsWith("")
+Solo al final---------------------------endsWith("")
+*/
