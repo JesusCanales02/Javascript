@@ -169,3 +169,88 @@ let huh = "a puerto de ensenada"
 let mi = huh.split(" ")
 mi.unshift("Bienvenidos")
 console.log(mi.join(" "))
+
+let b = "estoy viendo"
+let a = b.split(" ")
+a.push("un video")
+console.log(a.join(" "))
+
+let ui = "siempre se me olvida"
+let poi = ui.split(" ")
+poi.pop()
+console.log(poi.join(" "))
+
+let nu = "yo nunca me he robado una bici"
+let bu = nu.split(" ")
+bu.shift()
+console.log(bu.join(" "))
+
+let we = "jugamos a las bolas"
+let re = we.split(" ")
+re.unshift("te parece si")
+console.log(re.join(" "))
+
+let vuv = "Hola como estas hoy"
+let byby = vuv.split(" ")
+byby.pop()
+byby.shift()
+console.log(byby.join(" "))
+
+let huhh = "hola mundo js"
+console.log(huhh.replace(/js/,"JS"))
+
+let apo = "app.js"
+if (apo.endsWith(".js")){
+    console.log(apo.replace(/.js/,".jsx"))
+}else{
+    console.log("nada")
+}
+
+let nun = "abc"
+console.log(nun.split("").join("-"))
+
+let mimi = "Hola mundo"
+resultadooo = mimi
+.replace(/a/g,"")
+.replace(/e/g,"")
+.replace(/i/g,"")
+.replace(/o/g,"")
+.replace(/u/g,"")
+console.log(resultadooo)
+
+let bubu = "uno dos tres"
+console.log(bubu.slice(4,7))
+
+let rwq = "hola mundo js"
+console.log(rwq.replace(/hola/,"Hola"))
+
+let mip = "banana"
+qw = mip.split("a").length - 1
+console.log(qw)
+//Aqui lo que hace el split separa las a de banana entonce queda
+// |b  |n  |n | " "|
+// son 3 letras y un espacio y el -1 para restar el ultimo espacio
+let mwwp = "bananw"
+qqq = mwwp.split("a").length - 1
+console.log(qqq)
+
+let tr = "hola mundo"
+opp = tr.split(" ")
+opp.unshift("Inicio")
+opp.push("fin")
+console.log(opp.join(" "))
+
+let jiji = "Hola mundo"
+if (jiji.endsWith("mundo")){
+    let titi = jiji.split(" ")
+    titi[1] = titi[1].split("").reverse().join(" ")
+    console.log(titi.join(" "))
+}else {
+    console.log("nada")
+}
+
+let texto = "Hola mundo";
+
+let posicion = texto.indexOf("mundo");
+
+console.log(posicion + 1);
