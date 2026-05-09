@@ -104,3 +104,38 @@ console.log(myArray)
 myArray = ["Estefania", "Hector", "Diego", 45, 3]
 myArray.splice(1,2,"sa")
 console.log(myArray)
+
+myArray4 = new Array(4)
+myArray4[0] = "Hola"
+myArray4[1] = 3
+myArray4[2] ="23"
+myArray4[3] = 6
+myArray4[4] = 0
+myArray4[10] = 8
+console.log(myArray4)
+
+myArray4 = []
+console.log(myArray4)
+
+myArray4.push("nueva", "elemntos", 5)
+console.log(myArray4)
+
+myArray4.pop()
+console.log(myArray4)
+
+myArray4.unshift("otro")
+console.log(myArray4)
+
+myArray4.shift()
+console.log(myArray4)
+
+console.log(myArray4.length)
+
+myArray4.push("again", 3, 7, "yo")
+console.log(myArray4)
+
+let yo = myArray4.slice(0,2)
+console.log(yo)
+
+myArray4.splice(0,2)
+console.log(myArray4)
