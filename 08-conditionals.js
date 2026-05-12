@@ -119,3 +119,25 @@ switch(suma){
         break
 }
 console.log(resultado)
+
+let resta = 4
+let num1 = 2
+let num2 = 4
+resul = null
+switch(resta){
+    case 1:
+        resul = num1 + num2
+        break
+    case 2:
+        result = num1 - num2
+        break
+    case 3:
+        result = num1 * num2
+        break
+    case 4:
+        result = num1 / num2
+        break
+    default:
+        result = "error"
+}
+console.log(result)
