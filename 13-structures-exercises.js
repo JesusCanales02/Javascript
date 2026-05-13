@@ -19,6 +19,7 @@ mySet = new Set(["juegos del hambre", "Luna de pluton", "libro de la guerra", "f
 console.log(mySet)
 
 // 5. Añade dos más. Uno de ellos repetido
+mySet.add("Siempre")
 mySet.add("f1")
 console.log(mySet)
 // 6. Elimina uno concreto a tu elección
