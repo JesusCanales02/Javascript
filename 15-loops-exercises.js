@@ -1,0 +1,58 @@
+/*
+Clase 30 - Ejercicios: Bucles
+Vídeo: https://youtu.be/1glVfFxj8a4?t=12732
+*/
+
+// NOTA: Explora diferentes sintaxis de bucles para resolver los ejercicios
+
+// 1. Crea un bucle que imprima los números del 1 al 20
+for(i = 1; i < 21; i++){
+    console.log(`numeros: ${i}`)
+}
+
+// 2. Crea un bucle que sume todos los números del 1 al 100 y muestre el resultado
+let suma = 0
+
+for(let i = 1; i <= 100; i++){
+    suma += i
+}
+
+console.log(`la suma es ${suma}`)
+// 3. Crea un bucle que imprima todos los números pares entre 1 y 50
+for(i = 0; i<51; i++){
+    if(i % 2 !== 0){
+        continue}
+        console.log(`el numero es par ${i}`)
+}
+
+// 4. Dado un array de nombres, usa un bucle para imprimir cada nombre en la consola
+let myArray1 = []
+myArray1 = ["jesus", "adrian", "canales", "rojas"]
+for(i = 0; i < myArray1.length; i++ ){
+    console.log(myArray1[i])
+}/*
+for (let value of myArray1) {
+    console.log(value)
+}*/
+
+
+// 5. Escribe un bucle que cuente el número de vocales en una cadena de texto
+let palabra = "jesus"
+let contador = 0
+let vocales = ["a", "e", "i","o","u"]
+for(i = 0; i< palabra.length; i++){
+    if(vocales.includes(palabra[i])){
+        contador++
+    }
+}
+console.log(contador)
+
+// 6. Dado un array de números, usa un bucle para multiplicar todos los números y mostrar el producto
+let 
+// 7. Escribe un bucle que imprima la tabla de multiplicar del 5
+
+// 8. Usa un bucle para invertir una cadena de texto
+
+// 9. Usa un bucle para generar los primeros 10 números de la secuencia de Fibonacci
+
+// 10. Dado un array de números, usa un bucle para crear un nuevo array que contenga solo los números mayores a 10
