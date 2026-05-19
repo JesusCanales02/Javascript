@@ -48,11 +48,30 @@ for(i = 0; i< palabra.length; i++){
 console.log(contador)
 
 // 6. Dado un array de números, usa un bucle para multiplicar todos los números y mostrar el producto
-let 
+let MiArray = [1 ,2, 3, 4]
+let indice = 0
+let Miproducto = 1
+
+while (indice < MiArray.length) {
+    Miproducto *= MiArray[indice]
+    indice++
+}
+console.log(Miproducto)
 // 7. Escribe un bucle que imprima la tabla de multiplicar del 5
 
+
 // 8. Usa un bucle para invertir una cadena de texto
+let cadena = "hola"
+let result = ""
+let inidice = cadena.length - 1
+
+while (inidice >= 0) {
+    result += cadena[inidice]
+    inidice--
+}
+console.log(result)
 
 // 9. Usa un bucle para generar los primeros 10 números de la secuencia de Fibonacci
+
 
 // 10. Dado un array de números, usa un bucle para crear un nuevo array que contenga solo los números mayores a 10
