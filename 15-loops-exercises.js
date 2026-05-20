@@ -58,7 +58,9 @@ while (indice < MiArray.length) {
 }
 console.log(Miproducto)
 // 7. Escribe un bucle que imprima la tabla de multiplicar del 5
-
+for (let index = 1; index < 11; index++) {
+    console.log(`Multiplicacion de ${index} * 5 es: `, index * 5)
+}
 
 // 8. Usa un bucle para invertir una cadena de texto
 let cadena = "hola"
@@ -72,6 +74,28 @@ while (inidice >= 0) {
 console.log(result)
 
 // 9. Usa un bucle para generar los primeros 10 números de la secuencia de Fibonacci
+let viejoNumero = 1
+let nuevoNumero = 0
+let siguiente = 0
+let contador7 = 0
+while (contador7 < 10) {
+    //contador solo dice hazlo 10 veces y ya
+    siguiente = nuevoNumero + viejoNumero
+    nuevoNumero = viejoNumero
+    viejoNumero = siguiente
+    contador7++
+    console.log(viejoNumero)
 
-
+}
 // 10. Dado un array de números, usa un bucle para crear un nuevo array que contenga solo los números mayores a 10
+let myArray = [1,2,3,11,12,15,5]
+let nuevoArray = []
+ for (let index = 0; index < myArray.length; index++) {
+    if (myArray[index] > 10) {
+        console.log(myArray[index])
+        nuevoArray.push(myArray[index])
+        //Aqui lo agregamos con unshift o push al nuevo array
+    }
+ }
+//nuevoArray.pop()
+console.log(nuevoArray)
