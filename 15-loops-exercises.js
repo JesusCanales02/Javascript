@@ -94,6 +94,7 @@ let nuevoArray = []
     if (myArray[index] > 10) {
         console.log(myArray[index])
         nuevoArray.push(myArray[index])
+        //“toma este valor y agrégalo al nuevo array”
         //Aqui lo agregamos con unshift o push al nuevo array
     }
  }
