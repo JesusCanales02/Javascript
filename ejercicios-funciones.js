@@ -48,3 +48,44 @@ function usando_while(numeros) {
     }
 }
 usando_while(0)
+
+function division(nums) {
+    for (let index = 1; index < 10; index++) {
+        console.log(`la multiplicaciones de ${index} * ${nums} es:`, nums * index)
+    }
+    
+}
+division(5)
+
+//Funciones anonimas
+const ejemplo = function(nombre){
+    console.log(`Hola mi nombre es ${nombre}`)
+}
+ejemplo("jesus")
+
+var apellido = function(apellido){
+    console.log(`apellido es ${apellido}`)
+}
+apellido("canales")
+
+const Miedad = function(age){
+    console.log(`Mi edad es ${age}`)
+}
+Miedad(23)
+
+//Funciones arrow
+const flecha = (react) => console.log(`ves que sirve para ${react}`)
+flecha("react")
+
+const flecha1 = (react) => {console.log(`ves que sirve para ${react}`)}
+flecha1("react de componenetes")
+
+const saludar = (mano) => console.log(`Jesus!, ${mano}`)
+saludar("como estas?")
+
+//funciones default
+function Midefault(a = 0, b = 0) {
+    console.log(a + b)
+}
+Midefault(2,3)
+
