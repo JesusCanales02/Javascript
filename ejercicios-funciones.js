@@ -89,3 +89,38 @@ function Midefault(a = 0, b = 0) {
 }
 Midefault(2,3)
 
+
+//funciones anonimas
+const segundo_nombre = function(Segundo){
+    console.log(`Mi segundo nombre es ${Segundo}`)
+}
+segundo_nombre("Rojas")
+
+//Funciones Anidadas
+function div(div1) {
+    console.log(div1 / 2)
+    function sum(suma1) {
+        console.log(suma1 + 2)
+    }
+    sum(4)
+}
+div(10)
+
+//Funciones arrow
+const cafe = (Sabor) => console.log(`Mi sabor favorito de cafe es ${Sabor}`)
+cafe("el Capuchino")
+
+//Return
+function Miresta(resta1, resta2) {
+    let Miresultado = resta1 - resta2
+    return Miresultado
+}
+let otra_resta = Miresta(4,10)
+let Aqui_vamos = otra_resta * 2
+console.log(Aqui_vamos)
+
+//Defualt
+function Midefault1(a = 0, b =0){
+    console.log(a + b)
+}
+Midefault1(2,3)
