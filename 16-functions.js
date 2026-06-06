@@ -96,3 +96,37 @@ externa()
 //La importancia de donde se pone el llamado de la funcion, si es afuera marca error interna(),
 //debe esta afuera de las llaves de su funcion como externa() esta afuera de su funcion
 
+
+//Funciones de orden superior
+function applyFunc(func, param){
+    func(param)
+}
+applyFunc(Saludo, "Hola a todos otra vez")
+
+//---------------------
+//forEach
+myArray = [1,2,3,4]
+myArray.forEach(function(value){
+    console.log(value)
+}) 
+//Otra forma es con arrow
+myArray.forEach((value) => console.log(value))
+
+//Set
+const mySet = new Set(["Jesus", "Canales", "Rojas", 37, true, "jesus.canales@mouredev.com"])
+mySet.forEach((value) => console.log(value))
+
+//Map
+const myMap = new Map([
+    ["name", "Jesus"],
+    ["email", "canaless@mouredev.com"],
+    ["age", 37]
+])
+myMap.forEach((keys) => console.log(keys))
+
+//ejempplo
+let alumnos = ["Ana", "Luis", "Pedro"];
+
+alumnos.forEach(function(alumno, indice) {
+    console.log(`El alumno número ${indice} es ${alumno}`);
+});
