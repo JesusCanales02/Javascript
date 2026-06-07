@@ -83,9 +83,34 @@ function Primos(numero1) {
 Primos(9)
 
 // 6. Crea una función que reciba dos arrays y devuelva un nuevo array que contenga los elementos comunes entre ambos
+function NumeroIguales() {
+let myArray = [1,2,3,4]
+let MySegundoArray = [3,4,6,7]
+let GuardarNumerosIguales = []
+for (let index = 0; index < myArray.length; index++) {
+    if (MySegundoArray.includes(myArray[index])){
+        GuardarNumerosIguales.push(myArray[index])
+    }
+}
+console.log(GuardarNumerosIguales)
+
+}
+NumeroIguales()
 
 // 7. Crea una función que reciba un array de números y devuelva la suma de todos los números pares
-
+function SumaDeTodos() {
+    let myArray = [1,2,3,4,5,6]
+    let suma = 0
+    let GuardarSuma = []
+    for (let index = 0; index < myArray.length; index++) {
+        if (myArray[index] % 2 === 0) {
+            suma+=myArray[index]            
+        }
+    }
+    GuardarSuma.push(suma)
+    console.log(GuardarSuma) 
+}
+SumaDeTodos()
 // 8. Crea una función que reciba un array de números y devuelva un nuevo array con cada número elevado al cuadrado
 
 // 9. Crea una función que reciba una cadena de texto y devuelva la misma cadena con las palabras en orden inverso
