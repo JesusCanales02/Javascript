@@ -112,7 +112,30 @@ function SumaDeTodos() {
 }
 SumaDeTodos()
 // 8. Crea una función que reciba un array de números y devuelva un nuevo array con cada número elevado al cuadrado
-
+function Elevado(myArray) {
+    //let myArray = [2,3,4]
+    let Nuevo_array = []
+    for (let index = 0; index < myArray.length; index++) {
+        let Operacion = myArray[index]**2
+        Nuevo_array.push(Operacion)
+    }
+    console.log(Nuevo_array)
+}
+Elevado([2,3,4])
 // 9. Crea una función que reciba una cadena de texto y devuelva la misma cadena con las palabras en orden inverso
-
+function Inverso() {
+    let palabra = "hola otra vez javascript"
+    let nuevo = palabra.split(" ").reverse().join(" ")
+    console.log(nuevo)
+}
+Inverso()
 // 10. Crea una función que calcule el factorial de un número dado
+function Factorial() {
+    let numero = 3
+    let valor = 1
+    for (let index = 1; index <= numero; index++) {
+        valor *= index
+    }
+    console.log(valor)
+}
+Factorial()
