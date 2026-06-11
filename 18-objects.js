@@ -51,10 +51,10 @@ let persona3 = {
         console.log("Voy caminando")
     },
     job:{
-        name: "Adrian Canales",
+        name: "Programando en el",
         exp: 2,
         work: function(){
-            console.log("Estoy trabajando")
+            console.log(`Estoy ${this.exp} dias trabajando`)
         }
     }
 }
@@ -76,3 +76,33 @@ console.log(person == person4)
 console.log(person === person4)
 
 console.log(person.name === person4.name )
+/*
+Porque marca false en la linea 76?
+
+Los objetos cuando se guardan en memoria ya no es con un valor asociado si no con una
+referencia, es decir, una direccion de memoria.
+Y nostros cuando hacemos esa igualdad de identidad no se compara el valor que tiene dentro,
+en realidad es la direccion de memoria, y tiene 2 direcciones de memoria, no llegamos a su valor
+llegamos a su referencia en memoria.
+*/
+
+//Iteracion
+for(let value in person4){
+    console.log(value)
+}
+
+for(let key in person4){
+    console.log(key + ": " + person4[key])
+}
+
+//Funciones como objets
+function Person(name, age) { //Deberia ser una clase
+    this.name = name
+    this.age = age
+}
+let persona5 = new Person("Yisus", 23)
+console.log(persona5)
+console.log(persona5.name)
+
+console.log(typeof(persona5))
+console.log(typeof(person4))
