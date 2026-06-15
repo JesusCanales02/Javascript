@@ -70,4 +70,36 @@ let persona3 = {
     }
 }
 
-let {name, age} = persona3
+let {name : name4, job : {name:Jobname, work: MyfuctionWork}} = persona3
+console.log(name4)
+console.log(Jobname)
+MyfuctionWork()
+
+//Propagacion (...)
+
+//Copia
+let myArray2 = [...myArray] //Hacemos una copia del array 
+console.log(myArray2)
+
+//Sintaxis arrays
+let myArray3 = [...myArray, 6,7]
+console.log(myArray3)
+console.log(myArray) //No cambia, porque fue clonado, el original no le afecto
+//Si hicieramos esto 
+/*
+let myArray5 = myArray
+aqui no hacemos copia solo asginamos lo que vale mi array y puedes cambiarla
+*/
+
+//Combinacion de arrays
+//estamos metiendo los datos como si estaviera juntado en un unico array, datos de diferentes arrays
+let myArray4 = [...myArray, ...myArray2, ...myArray3]
+console.log(myArray4)
+
+//Sintaxis objets
+let persona5 = {...persona3, email: "email@gmail.com"}
+console.log(persona5)
+
+//Copia de onjetps
+let person4 = {...persona3}
+console.log(person4)
