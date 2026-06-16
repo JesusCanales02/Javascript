@@ -34,6 +34,8 @@ let {name, age, alias} = Person
 console.log(name)
 console.log(age)
 console.log(alias)
+//name = "sergio"
+//console.log(`Mi nombre es ${name}`)
 
 //Sintaxis objets con valores predetermiandos
 let {name2, age2, alias2, email = "email@gamil.com"} = Person
