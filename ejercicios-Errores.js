@@ -2,7 +2,7 @@
 let numero = 3
 
 try {
-    console.log(ndwadaw)
+    console.log(numero.dw.lo)
     console.log("Se ejecuto sin errores")
     
 } catch {
@@ -38,3 +38,35 @@ finally{
 }
 
 //tenemos los lanzamientos de errores
+let lanzar = 65
+try {
+    console.log(lanzar)
+    //throw new Error("Se produjo un error")
+} catch (error) {
+    console.log("Se lanzo un error")
+}
+
+//Capturar varios errores
+function Sum(a, b) {
+    if (typeof a !== "number" || typeof b !== "number") {
+        throw new TypeError("")
+        
+    }
+    if (!Number.isInteger(a) || !Number.isInteger(b)) {
+        throw new Error("")
+    }
+    
+    return a + b
+}
+
+try {
+    console.log(Sum(3,"21"))
+    
+} catch (error) {
+    if (error instanceof TypeError) {
+        console.log("Error de dato", error.message)
+    } else if(error instanceof Error){
+        console.log("Error de numero, debe ser entero", error.message)
+    }
+}
+
