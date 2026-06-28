@@ -119,6 +119,14 @@ let otra_resta = Miresta(4,10)
 let Aqui_vamos = otra_resta * 2
 console.log(Aqui_vamos)
 
+/*return new Promise(resolve => setTimeout(resolve,ms))
+
+return new Promise(function(resolve) {
+    return setTimeout(resolve, ms);
+});
+*/
+
+
 //Defualt
 function Midefault1(a = 0, b =0){
     console.log(a + b)

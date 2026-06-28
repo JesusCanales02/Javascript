@@ -52,7 +52,7 @@ perro = 4
 console.log(typeof(perro))
 
 //La variable const es una variable que no s mutable es decir que no puede ser cambiada
-const temperatura = 34
+export const temperatura = 34
 console.log("la temperatura es de", temperatura, "grados" )
 
 /*

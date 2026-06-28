@@ -1,7 +1,7 @@
 //Funciones
 
 //Simple 
-function myFuction(){
+export function myFuction(){
     console.log("Mi funcion!!")
 }
 for (let index = 0; index < 5; index++) {
@@ -33,7 +33,7 @@ const Segundo_nombre = function(Lasname){
 Segundo_nombre("Rojas")
 
 //Arrow fuctions
-const Saludo  = (saludando) => {
+export const Saludo  = (saludando) => {
     console.log(`Hola, ${saludando}`)
 } 
 Saludo("Como estas?")
@@ -105,7 +105,7 @@ applyFunc(Saludo, "Hola a todos otra vez")
 
 //---------------------
 //forEach
-myArray = [1,2,3,4]
+const myArray = [1,2,3,4]
 myArray.forEach(function(value){
     console.log(value)
 }) 

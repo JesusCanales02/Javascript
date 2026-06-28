@@ -3,7 +3,7 @@
 //Definimos las propiedades y los metodos, pero no le damos valores, se lo damos en posterior
 //PLANTILLA
 
-class Person{
+export class Person{
     constructor(name, age, alias){
         this.name = name
         this.age = age       //This sirve para guardar el datos dentro de molde (clase)
@@ -98,7 +98,7 @@ class GetSetPerson{
         this.#bank = newBank 
     }
 }
-persona6 = new GetSetPerson("jesus", 34, "yisus", "BACK4567HF")
+let persona6 = new GetSetPerson("jesus", 34, "yisus", "BACK4567HF")
 console.log(persona6)
 console.log(persona6.name)
 
